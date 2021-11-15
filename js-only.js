@@ -10,7 +10,7 @@ function add(num1, num2) {
   return num1 + num2;
 }
 
-button.addEventListener("click", function() {
+button.addEventListener("click", function () {
   /*
   Accessing the value of something will always return a String,
   which is why the result shown in the console would be a concatenated

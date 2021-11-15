@@ -27,8 +27,8 @@ function TSadd(num1: number, num2: number) {
   return num1 + num2;
 }
 
-TSbutton.addEventListener("click", function() {
-/*
+TSbutton.addEventListener("click", function () {
+  /*
 TSinput1.value will still return a String here,
 but a String is not able to be used
 in a function which explicitely wants a number.
