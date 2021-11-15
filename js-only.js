@@ -13,7 +13,7 @@ function add(num1, num2) {
 button.addEventListener("click", function() {
   /*
   Accessing the value of something will always return a String,
-  which is why the result shown in the console would be a concatenaed
+  which is why the result shown in the console would be a concatenated
   instead of added together
   */
   console.log(add(input1.value, input2.value));
